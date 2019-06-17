@@ -7,9 +7,17 @@
   --gray: #525353;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
-
+  box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5 {
@@ -18,6 +26,7 @@ h1, h2, h3, h4, h5 {
 }
 p, a, li {
   font-family: 'muli', sans-serif;
+  font-size: 1.4rem;
 }
 
 a {
@@ -33,8 +42,66 @@ a {
   color: var(--peach);
 }
 
-h4.resource-title a {
-  border-bottom: 2px solid var(--aqua);
+.resource-title.aqua span {
+  border-bottom: 4px solid var(--aqua);
+}
+
+.resource-title.peach span {
+  border-bottom: 4px solid var(--peach);
+}
+
+.design-section {
+  width: 100vw;
+  height: 100vh;
+  padding: 0px 16px;
+  overflow-y: scroll;
+}
+
+.border-aqua {
+  border: 8px solid var(--aqua);
+}
+
+.border-peach {
+  border: 8px solid var(--peach);
+}
+
+
+
+/* MAIN LAYOUT */
+
+.header-section {
+  position: sticky;
+  top: 8px;
+  background: linear-gradient(rgba(255,255,255, 1), rgba(255,255,255,0.45) 20%);
+  padding-bottom: 12px;
+}
+
+h5.pagination {
+  font-size: 3.2rem;
+  margin: 0;
+}
+
+.header-section h2 {
+  font-size: 4rem;
+  margin: -24px auto 2rem 32px;
+}
+
+a.resource-title {
+  font-size: 2.4rem;
+  display: block;
+  font-weight: 700;
+  font-family: 'futura-pt', sans-serif;
+}
+
+
+.next-section{
+  margin-top: 32px;
+  text-align: center;
+}
+
+.next-section a {
+  font-size: 5.6rem;
+
 }
 
 
