@@ -1,0 +1,51 @@
+/* GENERAL */
+@import url("https://use.typekit.net/wlx0fcl.css");
+
+:root {
+  --aqua: #19EFC8;
+  --peach: #FBD0B1;
+  --gray: #525353;
+}
+
+body {
+  margin: 0;
+
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 700;
+}
+p, a, li {
+  font-family: 'muli', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.aqua,
+.aqua a {
+  color: var(--aqua);
+}
+
+.peach {
+  color: var(--peach);
+}
+
+h4.resource-title a {
+  border-bottom: 2px solid var(--aqua);
+}
+
+
+@media (min-width: 720px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
